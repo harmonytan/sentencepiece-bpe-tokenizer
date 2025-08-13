@@ -1,7 +1,7 @@
 [project]
 name = "sb-tokenizer"
 version = "0.1.0"
-description = "Add your description here"
+description = "SentencePiece BPE Tokenizer with Rust backend"
 readme = "README.md"
 authors = [
     { name = "tanhongming.1", email = "tanhongming.1@jd.com" }
@@ -16,3 +16,4 @@ build-backend = "maturin"
 [tool.maturin]
 features = ["pyo3/extension-module"]
 module-name = "sb_tokenizer._rust"
+python-source = "."
