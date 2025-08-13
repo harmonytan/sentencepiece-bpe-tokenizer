@@ -7,3 +7,9 @@
 *.egg-info
 
 __pycache__
+
+.venv 
+.joycode
+.vscode
+
+
